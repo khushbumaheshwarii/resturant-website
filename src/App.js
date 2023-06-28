@@ -1,9 +1,10 @@
-// import React from 'react'
+import React from 'react'
+import Reaturant from './component/basics/Resturant';
 
 const App = () => {
   return (
     <div>
-    <h1>Learning React with ThapaTechnical</h1>
+      <Reaturant />
     </div>
 
   )
