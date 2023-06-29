@@ -1,23 +1,37 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow:wrap;
+    background-color: rgb(255, 228, 196);    
 }
+
 .main-card--cointainer{
-    background-color: bisque;
+    
 }
 .card-container{
     background-color:#fff; 
-    display: flex;
-    flex-flow:row wrap;
-    
+    border: 1px solid rgb(253, 219, 176);    
 }
 
 .card{
     width: 350px;
-    /* height: 400px; */
+    height: 630px;
     margin: 10px;
     background-color: #fff;
 }
+.card span,
+h2
+{
+    background-color:#fff; 
+}
+.card-body {
+    /* display: block; */
+    background-color:#fff; 
+}
+
+
 .card-media{
     width: 250px;
     height: auto;
