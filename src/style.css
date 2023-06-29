@@ -19,12 +19,12 @@
     width: 350px;
     height: 630px;
     margin: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 .card span,
 h2
 {
-    background-color:#fff; 
+    /* background-color:#fff;  */
 }
 .card-body {
     /* display: block; */
